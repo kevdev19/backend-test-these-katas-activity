@@ -7,16 +7,16 @@ class TestKatas(unittest.TestCase):
         self.assertEqual(katas.add(1, 5), 6)
 
     def test_multiply(self):
-        self.fail("TODO: Write multiply unit test")
+        self.assertEqual(katas.multiply(3, 3), 9)
 
     def test_power(self):
-        self.fail("TODO: Write power unit test")
+        self.assertEqual(katas.power(2, 3), 8)
 
     def test_factorial(self):
-        self.fail("TODO: Write factorial unit test")
+        self.assertEqual(katas.factorial(4), 24)
 
     def test_fibonacci(self):
-        self.fail("TODO: Write fibonacci unit test")
+        self.assertTrue(katas.fibonacci(8), 21)
 
 
 if __name__ == '__main__':
